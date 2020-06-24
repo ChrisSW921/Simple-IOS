@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		FF801CD124A2F9A700CAC60D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF801CD024A2F9A700CAC60D /* AppDelegate.swift */; };
 		FF801CD324A2F9A700CAC60D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF801CD224A2F9A700CAC60D /* SceneDelegate.swift */; };
-		FF801CD524A2F9A700CAC60D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF801CD424A2F9A700CAC60D /* ViewController.swift */; };
 		FF801CD824A2F9A700CAC60D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF801CD624A2F9A700CAC60D /* Main.storyboard */; };
 		FF801CDA24A2F9AA00CAC60D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF801CD924A2F9AA00CAC60D /* Assets.xcassets */; };
 		FF801CDD24A2F9AA00CAC60D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF801CDB24A2F9AA00CAC60D /* LaunchScreen.storyboard */; };
 		FF801CE824A2F9AA00CAC60D /* Simple_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF801CE724A2F9AA00CAC60D /* Simple_IOSTests.swift */; };
 		FF801CF324A2F9AA00CAC60D /* Simple_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF801CF224A2F9AA00CAC60D /* Simple_IOSUITests.swift */; };
+		FF801D0124A2FA4900CAC60D /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF801D0024A2FA4900CAC60D /* MainTableViewController.swift */; };
+		FF801D0324A2FF9400CAC60D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF801D0224A2FF9400CAC60D /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 		FF801CCD24A2F9A700CAC60D /* Simple IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF801CD024A2F9A700CAC60D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF801CD224A2F9A700CAC60D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF801CD424A2F9A700CAC60D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF801CD724A2F9A700CAC60D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF801CD924A2F9AA00CAC60D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF801CDC24A2F9AA00CAC60D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		FF801CEE24A2F9AA00CAC60D /* Simple IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF801CF224A2F9AA00CAC60D /* Simple_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_IOSUITests.swift; sourceTree = "<group>"; };
 		FF801CF424A2F9AA00CAC60D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF801D0024A2FA4900CAC60D /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		FF801D0224A2FF9400CAC60D /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +103,12 @@
 			children = (
 				FF801CD024A2F9A700CAC60D /* AppDelegate.swift */,
 				FF801CD224A2F9A700CAC60D /* SceneDelegate.swift */,
-				FF801CD424A2F9A700CAC60D /* ViewController.swift */,
 				FF801CD624A2F9A700CAC60D /* Main.storyboard */,
 				FF801CD924A2F9AA00CAC60D /* Assets.xcassets */,
 				FF801CDB24A2F9AA00CAC60D /* LaunchScreen.storyboard */,
 				FF801CDE24A2F9AA00CAC60D /* Info.plist */,
+				FF801D0024A2FA4900CAC60D /* MainTableViewController.swift */,
+				FF801D0224A2FF9400CAC60D /* WebViewController.swift */,
 			);
 			path = "Simple IOS";
 			sourceTree = "<group>";
@@ -259,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF801CD524A2F9A700CAC60D /* ViewController.swift in Sources */,
+				FF801D0124A2FA4900CAC60D /* MainTableViewController.swift in Sources */,
 				FF801CD124A2F9A700CAC60D /* AppDelegate.swift in Sources */,
 				FF801CD324A2F9A700CAC60D /* SceneDelegate.swift in Sources */,
+				FF801D0324A2FF9400CAC60D /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
