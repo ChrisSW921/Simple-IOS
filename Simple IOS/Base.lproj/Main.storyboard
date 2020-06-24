@@ -23,9 +23,6 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="tAJ-BR-n3C" kind="show" id="Rhg-ij-xVc"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -34,10 +31,13 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="E3t-Hx-Keb"/>
+                    <connections>
+                        <segue destination="tAJ-BR-n3C" kind="show" identifier="showMe" id="WQV-2z-Dco"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bW3-GX-kJw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1339.1304347826087" y="136.60714285714286"/>
+            <point key="canvasLocation" x="1422" y="137"/>
         </scene>
         <!--Web View Controller-->
         <scene sceneID="TDC-zM-jCT">
